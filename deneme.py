@@ -1,6 +1,5 @@
 from stocktalk import streaming
 from stocktalk import visualize
-from bokeh.plotting import hplot, figure, show, output_server, Session
 from numpy import arange, sin, cos
 
 
@@ -19,8 +18,8 @@ AAPL = ['AAPL', 'Apple']
 AMZN = ['AMZN', 'Amazon']
 
 # Variables
-tickers = [TSLA, SNAP, AAPL, AMZN]  # Used for identification purposes
-queries = TSLA + SNAP + AAPL + AMZN  # Filters tweets containing one or more query
+tickers = [TSLA ]#, SNAP, AAPL, AMZN]  # Used for identification purposes
+queries = TSLA #+ SNAP + AAPL + AMZN  # Filters tweets containing one or more query
 refresh = 30  # Process and log data every 30 seconds
 
 streaming(credentials, tickers, queries, refresh, path, \
