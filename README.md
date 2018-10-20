@@ -9,10 +9,8 @@ streaming(credentials, 'TSLA', ['TSLA', 'Tesla'], 30, path, realtime=True, logSe
 visualize('TSLA', 30, path)
 ```
 
-<img src="https://raw.githubusercontent.com/Crypto-AI/Stocktalk/master/media/Demo.gif" width=50%>
 
 ## Content
-- [Install](#install)
 - [Download Corpus](#download-corpus)
 - [Code Examples](#code-examples)
 	* [Twitter Streaming](#twitter-streaming)
@@ -27,9 +25,7 @@ visualize('TSLA', 30, path)
 
 
 ## Download Corpus
-```python
-stocktalk-corpus
-or
+```
 python -m nltk.downloader vader_lexicon
 ```
 
