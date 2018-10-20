@@ -1,13 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/Crypto-AI/Stocktalk/master/media/Design.png" width=60%></p>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![PyPI version](https://badge.fury.io/py/stocktalk.svg)](https://badge.fury.io/py/stocktalk)
-[![Build Status](https://travis-ci.org/Crypto-AI/Stocktalk.svg?branch=master)](https://travis-ci.org/Crypto-AI/Stocktalk)
-![Python](https://img.shields.io/badge/python-v2.7%20%2F%20v3.6-blue.svg)
-![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
-[![GitHub Issues](https://img.shields.io/github/issues/Crypto-AI/Stocktalk.svg)](https://github.com/Crypto-AI/stocktalk/issues)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# Stocktalk
 
 ## Quickstart
 #### Track tweet volume and sentiment in realtime
@@ -34,10 +25,6 @@ visualize('TSLA', 30, path)
 	* [Text Processing](#text-processing)
 	* [Sentiment Analysis](#sentiment-analysis)
 
-## Install
-```python
-pip install stocktalk
-```
 
 ## Download Corpus
 ```python
